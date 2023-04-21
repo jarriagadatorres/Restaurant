@@ -1,16 +1,23 @@
 
 function ItemCarta({ imagen, plato, detalle, precio }) {
     return (
-        <article className='item-menu'>
-            <header className='im-header'>
-                <p><strong>{plato}</strong></p>
+        <article >
+            <p><strong><h4>{plato}</h4></strong></p>
+            <table className="table">
+                <td className="td-imagen">
                 <img
                     className='img-item'
                     alt=''
-                    src={imagen} />
-                <span>{detalle}${precio}</span>
-                <p></p>
-            </header>
+                    src={imagen} 
+                    width={80}/>
+                    </td>
+                    <td className="td-detalle">
+                <span>{detalle}</span>
+                </td>
+                <td className="td-precio">
+                <strong><p>${precio}.-</p></strong>
+                </td>
+            </table>
         </article>
     );
 };

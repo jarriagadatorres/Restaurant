@@ -16,16 +16,29 @@ section {
   background-color: #261214;
 }
 
-.card{
-  padding-top: 1rem;
-  margin: 1rem 1rem 1rem;
-  max-width: 47%;
-  min-width: 47%;
+.card {
+  margin: 5px 5px;
+  max-width: 49%;
+  min-width: 49%;
   border-color: black;
 }
-.carta-card{
-  flex-direction:inherit;
+
+.carta-card {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   max-width: 100%;
+}
+
+.card-header {
+  margin: 0;
+  padding: 0;
+}
+
+.td-imagen {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.td-precio {
+  width: 100px;
 }
