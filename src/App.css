@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #c0b6ff6b;
+  background-image: url("./src/assets/images/home.jpg");
+ /* background-size:cover;*/
 }
 
 section {
@@ -17,21 +18,29 @@ section {
 }
 
 .card {
-  margin: 5px 5px;
-  max-width: 49%;
-  min-width: 49%;
-  border-color: black;
+  margin: 5px auto;
+  max-width: 90%;
+  min-width: 60%;
+  border-color: rgba(113, 112, 112, 0.396);
+  
 }
 
 .carta-card {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
+  opacity: 70%;
 }
 
-.card-header {
+.tmenu {
+  padding-top: 15px;
+  background-color: rgba(11, 120, 215, 0.085);
+  text-shadow: 2px 2px 2px gray;
+}
+.card-body{
   margin: 0;
-  padding: 0;
+  padding: 1;
+  background-color: rgba(11, 120, 215, 0.085);
 }
 
 .td-imagen {
@@ -41,4 +50,14 @@ section {
 
 .td-precio {
   width: 100px;
+}
+
+Table img{
+  width: 150px;
+}
+
+@media  (max-width: 390px) {
+  Table img{
+    width: 80px;
+  }
 }

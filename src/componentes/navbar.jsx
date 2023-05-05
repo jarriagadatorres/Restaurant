@@ -1,14 +1,14 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBarProyect = () => {
     return (
         <>
-            <Navbar className="navBg" variant="dark"  expand='sm'>
+            <Navbar className="navBg" variant="dark" expand='sm'>
                 <Container>
                     <Navbar.Brand as={Link} to="/">Proyecto Restaurant</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
