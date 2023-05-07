@@ -26,6 +26,5 @@ function Carta() {
             }
         </div>
     )
-
-}
+};
 export default Carta

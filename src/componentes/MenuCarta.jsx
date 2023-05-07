@@ -4,25 +4,25 @@ export const menuItems = [
         platos: [
             {
                 plato: 'Tarta de Salmon',
-                imagen: 'pp',
+                imagen: './src/assets/images/tarta_de_salmon.jpeg',
                 detalle: 'Tarta de Salmon ahumadi, mango, palta y mostaza. ',
                 precio: 8500
             },
             {
                 plato: 'Timbal de Pulpo',
-                imagen: 'pp',
+                imagen: './src/assets/images/timbal_de_pulpo.webp',
                 detalle: 'Timbal de Pulpo con papas y pimenton de la vera gratinado al ajo suave. ',
                 precio: 9950
             },
             {
                 plato: 'Papas Confitadas',
-                imagen: 'pp',
+                imagen: './src/assets/images/papas_confitadas.jpg',
                 detalle: 'Papas confitadas al tomillo, huevo escalfado, trufa y jamon iberico. ',
                 precio: 10800
             },
             {
                 plato: 'Calamar',
-                imagen: 'pp',
+                imagen: './src/assets/images/calamar.jpg',
                 detalle: 'Calamar nacional a la plancha con salsa Mery. ',
                 precio: 17800
             }
@@ -33,19 +33,19 @@ export const menuItems = [
     platos: [
         {
             plato: 'Salmon',
-            imagen: '',
+            imagen: './src/assets/images/salmon.jpg',
             detalle: 'Salmon con velouté de setas, ajos tiernos, piñones y jengibre. ',
             precio: 10500
         },
         {
             plato: 'Mereluza',
-            imagen: 'pp',
+            imagen: './src/assets/images/merluza.jpg',
             detalle: 'Merluza a la romana con salsa ligera de setas y azafrán. ',
             precio: 11950
         },
         {
             plato: 'Bacalao',
-            imagen: 'pp',
+            imagen: './src/assets/images/bacalao.jpg',
             detalle: 'Bacalao confitado, pure de calabaza y verduras de temporada. ',
             precio: 11900
         }
@@ -56,19 +56,19 @@ export const menuItems = [
     platos: [
         {
             plato: 'Entrecot',
-            imagen: 'pp',
+            imagen: './src/assets/images/entrecot.webp',
             detalle: 'Entrecot de ternera rubio gallega a la parrilla con sal maldom. ',
             precio: 15500
         },
         {
             plato: 'Chuleta',
-            imagen: 'pp',
+            imagen: './src/assets/images/chuleta.jpg',
             detalle: 'Chuleta de ternera lechal a la parrilla con salsa al gusto. ',
             precio: 12000
         },
         {
             plato: 'Solomillo',
-            imagen: 'pp',
+            imagen: './src/assets/images/solomillo.jpeg',
             detalle: 'Solomillo de ternera rubio gallega a la parrilla con salsa al gusto. ',
             precio: 15500
         }

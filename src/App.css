@@ -6,7 +6,7 @@
 
 body {
   background-image: url("./src/assets/images/home.jpg");
- /* background-size:cover;*/
+  /* background-size:cover;*/
 }
 
 section {
@@ -22,7 +22,7 @@ section {
   max-width: 90%;
   min-width: 60%;
   border-color: rgba(113, 112, 112, 0.396);
-  
+
 }
 
 .carta-card {
@@ -30,6 +30,7 @@ section {
   flex-wrap: wrap;
   max-width: 100%;
   opacity: 70%;
+  padding-top: 10px;
 }
 
 .tmenu {
@@ -37,7 +38,8 @@ section {
   background-color: rgba(11, 120, 215, 0.085);
   text-shadow: 2px 2px 2px gray;
 }
-.card-body{
+
+.card-body {
   margin: 0;
   padding: 1;
   background-color: rgba(11, 120, 215, 0.085);
@@ -48,16 +50,58 @@ section {
   vertical-align: middle;
 }
 
+
 .td-precio {
   width: 100px;
 }
 
-Table img{
+Table img {
   width: 150px;
+  mix-blend-mode: darken;
+  border-radius: 30px;
+
 }
 
-@media  (max-width: 390px) {
-  Table img{
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30%;
+  max-width: 40%;
+  opacity: 70%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.checkForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 390px) {
+  Table tr {
+    display: flex;
+  }
+
+  Table img {
+    width: 60px;
+  }
+
+  .td-detalle {
+    font-size: 11px;
+  }
+
+  .td-precio h5 {
     width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80%;
+    max-width: 90%;
+    opacity: 70%;
+    padding-top: 10px;
   }
 }
