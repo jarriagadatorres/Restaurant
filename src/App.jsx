@@ -14,7 +14,6 @@ const App = () => {
         <Routes>
           <Route path='/' element={<NavBarProyect />}>
             <Route index element={<Home />} />
-            <Route path="/About" element={<About />} />
             <Route path="/Carta" element={<Carta />} />
             <Route path="/Reserva" element={<Reserva />} />
             <Route path="*" element={<Navigate replace to="/" />} />

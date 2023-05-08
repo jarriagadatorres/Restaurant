@@ -29,7 +29,7 @@ const FormularioReservas = (props) => {
 
 
     return (
-        <div className='container1 card ' >
+        <div className='container1 card pb-4 pt-3' >
             <h2>Formulario de Reserva</h2>
             <br />
             <Form onSubmit={handleSubmit}>

@@ -6,7 +6,10 @@
 
 body {
   background-image: url("./src/assets/images/home.jpg");
-  /* background-size:cover;*/
+}
+.home-text{
+  text-align: justify;
+  color:aliceblue
 }
 
 section {
@@ -78,6 +81,9 @@ Table img {
 }
 
 @media (max-width: 390px) {
+  .home-text h4{
+    font-size: medium;
+  }
   Table tr {
     display: flex;
   }
@@ -103,5 +109,11 @@ Table img {
     max-width: 90%;
     opacity: 70%;
     padding-top: 10px;
+  }
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80%;
+    max-width: 90%;
   }
 }

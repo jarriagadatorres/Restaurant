@@ -8,14 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavBarProyect = () => {
     return (
         <>
-            <Navbar className="navBg" variant="dark" expand='sm'>
+            <Navbar className="navBg" variant="dark" expand='sm' >
                 <Container>
                     <Navbar.Brand as={Link} to="/">Proyecto Restaurant</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/Home" >Home</Nav.Link>
-                            <Nav.Link as={Link} to="/About" >About</Nav.Link>
                             <Nav.Link as={Link} to="/Carta" >Carta</Nav.Link>
                             <Nav.Link as={Link} to="/Reserva" >Reserva</Nav.Link>
                         </Nav>
