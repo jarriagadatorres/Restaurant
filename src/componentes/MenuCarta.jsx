@@ -4,7 +4,7 @@ export const menuItems = [
         platos: [
             {
                 plato: 'Tarta de Salmon',
-                imagen: './src/assets/images/tarta_de_salmon.jpeg',
+                imagen: 'assets/images/tarta_de_salmon.jpeg',
                 detalle: 'Tarta de Salmon ahumadi, mango, palta y mostaza. ',
                 precio: 8500
             },
